@@ -1,10 +1,22 @@
-﻿Console.WriteLine("Введите число 1");
-int a = Convert.ToInt16(Console.ReadLine());
-Console.WriteLine("Введите число 2");
-int b = Convert.ToInt16(Console.ReadLine());
-
-if (b==a*a)
+﻿Ctry
 {
-    Console.WriteLine("Да");
+    Console.Write ("Введите первое целое число ");
+    int a = Convert.ToInt32 (Console.ReadLine());
+    Console.Write ("Введите второе целое число ");
+    int b = Convert.ToInt32 (Console.ReadLine());
+    // Console.WriteLine("Квадрат этого числа равен "+x*x);
+    if (a == b*b)
+    {
+    Console.WriteLine("Первое число является квадратом второго");
+    }
+    else if (b == a*a)
+    {
+    Console.WriteLine("Второе число является квадратом первого");
+    }
+    else
+    Console.WriteLine("Числа не являются квадратами друг друга");
+    }
+catch
+{
+    Console.WriteLine("Какая то фигня");
 }
-else Console.WriteLine("Нет");
