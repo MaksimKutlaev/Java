@@ -3,3 +3,13 @@
 /Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM1/obj/Debug/net6.0/HM1.AssemblyInfoInputs.cache
 /Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM1/obj/Debug/net6.0/HM1.AssemblyInfo.cs
 /Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM1/obj/Debug/net6.0/HM1.csproj.CoreCompileInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM1/bin/Debug/net6.0/HM1
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM1/bin/Debug/net6.0/HM1.deps.json
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM1/bin/Debug/net6.0/HM1.runtimeconfig.json
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM1/bin/Debug/net6.0/HM1.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM1/bin/Debug/net6.0/HM1.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM1/obj/Debug/net6.0/HM1.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM1/obj/Debug/net6.0/refint/HM1.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM1/obj/Debug/net6.0/HM1.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM1/obj/Debug/net6.0/HM1.genruntimeconfig.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM1/obj/Debug/net6.0/ref/HM1.dll
