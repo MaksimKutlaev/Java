@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM4/HM4.csproj",
-      "projectName": "HM4",
-      "projectPath": "/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM4/HM4.csproj",
+      "projectUniqueName": "/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM2/HM2.csproj",
+      "projectName": "HM2",
+      "projectPath": "/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM2/HM2.csproj",
       "packagesPath": "/Users/maksimkutlaev/.nuget/packages/",
-      "outputPath": "/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM4/obj/",
+      "outputPath": "/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/maksimkutlaev/.nuget/NuGet/NuGet.Config"

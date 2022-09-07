@@ -1,0 +1,15 @@
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM10/bin/Debug/net6.0/HM10
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM10/bin/Debug/net6.0/HM10.deps.json
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM10/bin/Debug/net6.0/HM10.runtimeconfig.json
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM10/bin/Debug/net6.0/HM10.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM10/bin/Debug/net6.0/HM10.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM10/obj/Debug/net6.0/HM10.csproj.AssemblyReference.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM10/obj/Debug/net6.0/HM10.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM10/obj/Debug/net6.0/HM10.AssemblyInfoInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM10/obj/Debug/net6.0/HM10.AssemblyInfo.cs
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM10/obj/Debug/net6.0/HM10.csproj.CoreCompileInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM10/obj/Debug/net6.0/HM10.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM10/obj/Debug/net6.0/refint/HM10.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM10/obj/Debug/net6.0/HM10.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM10/obj/Debug/net6.0/HM10.genruntimeconfig.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM10/obj/Debug/net6.0/ref/HM10.dll
