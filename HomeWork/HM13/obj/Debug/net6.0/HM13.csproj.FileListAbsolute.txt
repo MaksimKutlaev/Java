@@ -1,0 +1,15 @@
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM13/obj/Debug/net6.0/HM13.csproj.AssemblyReference.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM13/obj/Debug/net6.0/HM13.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM13/obj/Debug/net6.0/HM13.AssemblyInfoInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM13/obj/Debug/net6.0/HM13.AssemblyInfo.cs
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM13/obj/Debug/net6.0/HM13.csproj.CoreCompileInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM13/bin/Debug/net6.0/HM13
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM13/bin/Debug/net6.0/HM13.deps.json
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM13/bin/Debug/net6.0/HM13.runtimeconfig.json
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM13/bin/Debug/net6.0/HM13.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM13/bin/Debug/net6.0/HM13.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM13/obj/Debug/net6.0/HM13.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM13/obj/Debug/net6.0/refint/HM13.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM13/obj/Debug/net6.0/HM13.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM13/obj/Debug/net6.0/HM13.genruntimeconfig.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM13/obj/Debug/net6.0/ref/HM13.dll
