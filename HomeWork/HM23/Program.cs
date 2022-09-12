@@ -2,28 +2,23 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
-string squareTable(int n)
-{
-string result = $"{n} -> 1";
+string cubeTable(int n)
+    {
+    string result = $"{n} -> 1";
 
-for (int i = 2; i <= n; i++)
-{
-result = result + $", {Math.Pow(i, 2)}";
-
-}
-
-return result;
-}
-
+    for (int i = 2; i <= n; i++)
+        {
+        result = result + $", {Math.Pow(i, 3)}";
+        }
+    return result;
+    }
 try
-{
-System.Console.Write("Введите число ");
-int n = Math.Abs(Convert.ToInt32(Console.ReadLine()));
-System.Console.WriteLine(squareTable(n));
-
-
-}
+    {
+    Console.Write("Введите число ");
+    int n = Math.Abs(Convert.ToInt32(Console.ReadLine()));
+    Console.WriteLine(cubeTable(n));
+    }
 catch
-{
-System.Console.WriteLine("Вводите целочисленное значение");
-}
+    {
+    Console.WriteLine("Вводите целочисленное значение");
+    }
