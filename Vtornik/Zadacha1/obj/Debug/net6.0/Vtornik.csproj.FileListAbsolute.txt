@@ -1,0 +1,15 @@
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha1/obj/Debug/net6.0/Vtornik.csproj.AssemblyReference.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha1/obj/Debug/net6.0/Vtornik.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha1/obj/Debug/net6.0/Vtornik.AssemblyInfoInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha1/obj/Debug/net6.0/Vtornik.AssemblyInfo.cs
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha1/obj/Debug/net6.0/Vtornik.csproj.CoreCompileInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha1/bin/Debug/net6.0/Vtornik
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha1/bin/Debug/net6.0/Vtornik.deps.json
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha1/bin/Debug/net6.0/Vtornik.runtimeconfig.json
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha1/bin/Debug/net6.0/Vtornik.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha1/bin/Debug/net6.0/Vtornik.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha1/obj/Debug/net6.0/Vtornik.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha1/obj/Debug/net6.0/refint/Vtornik.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha1/obj/Debug/net6.0/Vtornik.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha1/obj/Debug/net6.0/Vtornik.genruntimeconfig.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha1/obj/Debug/net6.0/ref/Vtornik.dll

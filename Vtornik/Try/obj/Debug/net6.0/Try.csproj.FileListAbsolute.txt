@@ -1,0 +1,5 @@
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Try/obj/Debug/net6.0/Try.csproj.AssemblyReference.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Try/obj/Debug/net6.0/Try.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Try/obj/Debug/net6.0/Try.AssemblyInfoInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Try/obj/Debug/net6.0/Try.AssemblyInfo.cs
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Try/obj/Debug/net6.0/Try.csproj.CoreCompileInputs.cache

@@ -1,0 +1,15 @@
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha14/obj/Debug/net6.0/Zadacha14.csproj.AssemblyReference.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha14/obj/Debug/net6.0/Zadacha14.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha14/obj/Debug/net6.0/Zadacha14.AssemblyInfoInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha14/obj/Debug/net6.0/Zadacha14.AssemblyInfo.cs
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha14/obj/Debug/net6.0/Zadacha14.csproj.CoreCompileInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha14/bin/Debug/net6.0/Zadacha14
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha14/bin/Debug/net6.0/Zadacha14.deps.json
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha14/bin/Debug/net6.0/Zadacha14.runtimeconfig.json
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha14/bin/Debug/net6.0/Zadacha14.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha14/bin/Debug/net6.0/Zadacha14.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha14/obj/Debug/net6.0/Zadacha14.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha14/obj/Debug/net6.0/refint/Zadacha14.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha14/obj/Debug/net6.0/Zadacha14.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha14/obj/Debug/net6.0/Zadacha14.genruntimeconfig.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha14/obj/Debug/net6.0/ref/Zadacha14.dll

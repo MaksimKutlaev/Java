@@ -1,0 +1,15 @@
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM19/obj/Debug/net6.0/HM19.csproj.AssemblyReference.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM19/obj/Debug/net6.0/HM19.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM19/obj/Debug/net6.0/HM19.AssemblyInfoInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM19/obj/Debug/net6.0/HM19.AssemblyInfo.cs
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM19/obj/Debug/net6.0/HM19.csproj.CoreCompileInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM19/bin/Debug/net6.0/HM19
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM19/bin/Debug/net6.0/HM19.deps.json
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM19/bin/Debug/net6.0/HM19.runtimeconfig.json
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM19/bin/Debug/net6.0/HM19.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM19/bin/Debug/net6.0/HM19.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM19/obj/Debug/net6.0/HM19.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM19/obj/Debug/net6.0/refint/HM19.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM19/obj/Debug/net6.0/HM19.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM19/obj/Debug/net6.0/HM19.genruntimeconfig.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM19/obj/Debug/net6.0/ref/HM19.dll

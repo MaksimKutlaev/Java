@@ -1,4 +1,5 @@
-﻿Ctry
+﻿
+try
 {
     Console.Write ("Введите первое целое число ");
     int a = Convert.ToInt32 (Console.ReadLine());

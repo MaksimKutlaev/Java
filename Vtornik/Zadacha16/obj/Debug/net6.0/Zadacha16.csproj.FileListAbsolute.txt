@@ -1,0 +1,15 @@
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha16/bin/Debug/net6.0/Zadacha16
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha16/bin/Debug/net6.0/Zadacha16.deps.json
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha16/bin/Debug/net6.0/Zadacha16.runtimeconfig.json
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha16/bin/Debug/net6.0/Zadacha16.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha16/bin/Debug/net6.0/Zadacha16.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha16/obj/Debug/net6.0/Zadacha16.csproj.AssemblyReference.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha16/obj/Debug/net6.0/Zadacha16.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha16/obj/Debug/net6.0/Zadacha16.AssemblyInfoInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha16/obj/Debug/net6.0/Zadacha16.AssemblyInfo.cs
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha16/obj/Debug/net6.0/Zadacha16.csproj.CoreCompileInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha16/obj/Debug/net6.0/Zadacha16.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha16/obj/Debug/net6.0/refint/Zadacha16.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha16/obj/Debug/net6.0/Zadacha16.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha16/obj/Debug/net6.0/Zadacha16.genruntimeconfig.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Zadacha16/obj/Debug/net6.0/ref/Zadacha16.dll
