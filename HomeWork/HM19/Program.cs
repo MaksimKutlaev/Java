@@ -2,6 +2,8 @@
 // 14212 -> нет
 // 12821 -> да
 // 23432 -> да
+void Poliandr()
+{
 Console.WriteLine("Введите пятизначное число");
 int x=Convert.ToInt32(Console.ReadLine());
 int x1=x/10000%10;
@@ -16,3 +18,5 @@ else
 {
     Console.WriteLine("Не является полиандром");
 }
+}
+Poliandr();
