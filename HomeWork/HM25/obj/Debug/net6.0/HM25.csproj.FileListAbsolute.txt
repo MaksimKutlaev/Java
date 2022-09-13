@@ -1,0 +1,15 @@
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM25/obj/Debug/net6.0/HM25.csproj.AssemblyReference.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM25/obj/Debug/net6.0/HM25.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM25/obj/Debug/net6.0/HM25.AssemblyInfoInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM25/obj/Debug/net6.0/HM25.AssemblyInfo.cs
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM25/obj/Debug/net6.0/HM25.csproj.CoreCompileInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM25/bin/Debug/net6.0/HM25
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM25/bin/Debug/net6.0/HM25.deps.json
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM25/bin/Debug/net6.0/HM25.runtimeconfig.json
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM25/bin/Debug/net6.0/HM25.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM25/bin/Debug/net6.0/HM25.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM25/obj/Debug/net6.0/HM25.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM25/obj/Debug/net6.0/refint/HM25.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM25/obj/Debug/net6.0/HM25.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM25/obj/Debug/net6.0/HM25.genruntimeconfig.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM25/obj/Debug/net6.0/ref/HM25.dll
