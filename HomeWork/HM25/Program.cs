@@ -8,7 +8,6 @@ int MathNums(int a, int b)
     for(int i=0; i<b; i++)
     num*=a;
     return num;
-    
     }
 
 try
@@ -21,6 +20,5 @@ try
     }
 catch (System.Exception)
     {
-
     Console.WriteLine("Надо было вводить именно целое число!");
     }
