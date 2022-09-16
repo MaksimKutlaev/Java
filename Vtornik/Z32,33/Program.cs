@@ -11,14 +11,14 @@ int[] FillArray(int size)
     }
     return mas;
 }
-int[] ChangeZ(int[] mas)
-{
-    for (int i = 0; i < mas.Length; i++)
-    {
-        mas[i] *= -1;
-    }
-    return mas;
-}
+// int[] ChangeZ(int[] mas)
+// {
+//     for (int i = 0; i < mas.Length; i++)
+//     {
+//         mas[i] *= -1;
+//     }
+//     return mas;
+// }
 void PrintArray(int[] mmm)
 {
     Console.Write("[");
