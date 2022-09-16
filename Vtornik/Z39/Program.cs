@@ -68,7 +68,7 @@ Treug(a,b,c);
 // 45 -> 101101
 // 3  -> 11
 // 2  -> 10
-
+/*
 string Convert2 (int N)
 {
     string result = String.Empty;
@@ -83,6 +83,72 @@ string Convert2 (int N)
 Console.WriteLine ("enter an integer");
 int arg1 = Convert.ToInt32 (Console.ReadLine());
 Console.WriteLine (Convert2 (arg1));
+*/
+// Задача 44: Не используя рекурсию, выведите первые N чисел Фибоначчи. Первые два числа Фибоначчи: 0 и 1.
+// Если N = 5 -> 0 1 1 2 3
+// Если N = 3 -> 0 1 1
+// Если N = 7 -> 0 1 1 2 3 5 8
+//  Задача 45: Напишите программу, которая будет создавать копию заданного массива с помощью поэлементного копирования.
+
+int [] Fibo (int N)
+{
+    int [] Fib = new int [N];
+    Fib [0] = 0;
+    Fib [1] = 1;
+    for (int i = 2; i < Fib.Length; i++)
+    {
+        Fib [i] = Fib [i-1]+ Fib [i-2];
+    }
+    return Fib;
+}
+void PrintArray(int[] mmm)
+            {
+                       for (int i=0;i<mmm.Length;i++) 
+                {
+                    if (i!=mmm.Length-1) Console.Write($"{mmm[i]}, ");
+                    else Console.WriteLine($"{mmm[i]}");
+                }
+            }
+Console.WriteLine ("enter an integer");
+int arg1 = Convert.ToInt32 (Console.ReadLine());
+PrintArray (Fibo (arg1));
+
+//  Задача 45: Напишите программу, которая будет создавать копию заданного массива с помощью поэлементного копирования.
+
+int [] Copy (int [] arr)
+{
+    int [] copypaste = new int [arr.Length];
+    for (int i = 0; i < arr.Length; i++) copypaste [i] = arr [i];
+    return copypaste;
+}
+int[] FillArray(int size)
+            {
+            int[] mas = new int[size];
+
+            for (int i=0;i<size;i++) 
+                {
+                    mas[i]= new Random().Next(-10,11);
+                }
+            return mas;
+            }
+void PrintArray(int[] mmm)
+            {
+                       for (int i=0;i<mmm.Length;i++) 
+                {
+                    if (i!=mmm.Length-1) Console.Write($"{mmm[i]}, ");
+                    else Console.WriteLine($"{mmm[i]}");
+                }
+            }
+Console.WriteLine ("enter size of array");
+int arg1 = Convert.ToInt32 (Console.ReadLine());
+int [] res = FillArray (arg1);
+int [] res2 = Copy (res);
+PrintArray (res);
+res [0]= 99999;
+PrintArray (res2);
+Console.WriteLine ("copypaste of array");
+PrintArray (Copy (res));
+
 
 
 
