@@ -90,28 +90,28 @@ Console.WriteLine (Convert2 (arg1));
 // Если N = 7 -> 0 1 1 2 3 5 8
 //  Задача 45: Напишите программу, которая будет создавать копию заданного массива с помощью поэлементного копирования.
 
-int [] Fibo (int N)
-{
-    int [] Fib = new int [N];
-    Fib [0] = 0;
-    Fib [1] = 1;
-    for (int i = 2; i < Fib.Length; i++)
-    {
-        Fib [i] = Fib [i-1]+ Fib [i-2];
-    }
-    return Fib;
-}
-void PrintArray(int[] mmm)
-            {
-                       for (int i=0;i<mmm.Length;i++) 
-                {
-                    if (i!=mmm.Length-1) Console.Write($"{mmm[i]}, ");
-                    else Console.WriteLine($"{mmm[i]}");
-                }
-            }
-Console.WriteLine ("enter an integer");
-int arg1 = Convert.ToInt32 (Console.ReadLine());
-PrintArray (Fibo (arg1));
+// int [] Fibo (int N)
+// {
+//     int [] Fib = new int [N];
+//     Fib [0] = 0;
+//     Fib [1] = 1;
+//     for (int i = 2; i < Fib.Length; i++)
+//     {
+//         Fib [i] = Fib [i-1]+ Fib [i-2];
+//     }
+//     return Fib;
+// }
+// void PrintArray(int[] mmm)
+//             {
+//                        for (int i=0;i<mmm.Length;i++) 
+//                 {
+//                     if (i!=mmm.Length-1) Console.Write($"{mmm[i]}, ");
+//                     else Console.WriteLine($"{mmm[i]}");
+//                 }
+//             }
+// Console.WriteLine ("enter an integer");
+// int arg1 = Convert.ToInt32 (Console.ReadLine());
+// PrintArray (Fibo (arg1));
 
 //  Задача 45: Напишите программу, которая будет создавать копию заданного массива с помощью поэлементного копирования.
 
