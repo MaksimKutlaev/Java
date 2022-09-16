@@ -1,0 +1,15 @@
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z31/obj/Debug/net6.0/Z31.csproj.AssemblyReference.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z31/obj/Debug/net6.0/Z31.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z31/obj/Debug/net6.0/Z31.AssemblyInfoInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z31/obj/Debug/net6.0/Z31.AssemblyInfo.cs
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z31/obj/Debug/net6.0/Z31.csproj.CoreCompileInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z31/bin/Debug/net6.0/Z31
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z31/bin/Debug/net6.0/Z31.deps.json
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z31/bin/Debug/net6.0/Z31.runtimeconfig.json
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z31/bin/Debug/net6.0/Z31.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z31/bin/Debug/net6.0/Z31.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z31/obj/Debug/net6.0/Z31.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z31/obj/Debug/net6.0/refint/Z31.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z31/obj/Debug/net6.0/Z31.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z31/obj/Debug/net6.0/Z31.genruntimeconfig.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z31/obj/Debug/net6.0/ref/Z31.dll
