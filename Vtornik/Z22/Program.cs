@@ -7,8 +7,8 @@
 //     int square=1;
 //     while (i<=n);
 //         {
-//         square=(square + "," + Convert.ToString(i*i)); 
-//             i++; 
+//         square=(square + "," + Convert.ToString(i*i));
+//             i++;
 //         }
 //     return square;
 //     }
@@ -19,26 +19,23 @@
 
 string squareTable(int num)
 {
-string result = $"{num} -> 1";
+    string result = $"{num} -> 1";
 
-for (int i = 2; i <= num; i++)
-{
-result = result + $", {Math.Pow(i, 2)}";
+    for (int i = 2; i <= num; i++)
+    {
+        result = result + $", {Math.Pow(i, 2)}";
+    }
 
-}
-
-return result;
+    return result;
 }
 
 try
 {
-System.Console.Write("Введите число = ");
-int num = Math.Abs(Convert.ToInt32(Console.ReadLine()));
-System.Console.WriteLine(squareTable(num));
-
-
+    System.Console.Write("Введите число = ");
+    int num = Math.Abs(Convert.ToInt32(Console.ReadLine()));
+    System.Console.WriteLine(squareTable(num));
 }
 catch
 {
-System.Console.WriteLine("Вводите целочисленное значение");
+    System.Console.WriteLine("Вводите целочисленное значение");
 }
