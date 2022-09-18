@@ -28,14 +28,14 @@ int EvenNum(int[] nums)
     int result = 0;
     for (int i = 0; i < nums.Length; i++)
     {
-        if (i % 2 == 0)
+        if (nums[i] % 2 == 0)
         {
             result++;
         }
     }
     return result;
 }
-int[] array = FillArray(4);
+int[] array = FillArray(5);
 PrintArray(array);
 int result = EvenNum(array);
 Console.WriteLine($"Кол-во четных чисел в массиве = {result}");
