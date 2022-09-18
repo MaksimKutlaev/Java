@@ -1,0 +1,15 @@
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM38HARD/obj/Debug/net6.0/HM38HARD.csproj.AssemblyReference.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM38HARD/obj/Debug/net6.0/HM38HARD.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM38HARD/obj/Debug/net6.0/HM38HARD.AssemblyInfoInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM38HARD/obj/Debug/net6.0/HM38HARD.AssemblyInfo.cs
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM38HARD/obj/Debug/net6.0/HM38HARD.csproj.CoreCompileInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM38HARD/bin/Debug/net6.0/HM38HARD
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM38HARD/bin/Debug/net6.0/HM38HARD.deps.json
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM38HARD/bin/Debug/net6.0/HM38HARD.runtimeconfig.json
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM38HARD/bin/Debug/net6.0/HM38HARD.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM38HARD/bin/Debug/net6.0/HM38HARD.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM38HARD/obj/Debug/net6.0/HM38HARD.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM38HARD/obj/Debug/net6.0/refint/HM38HARD.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM38HARD/obj/Debug/net6.0/HM38HARD.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM38HARD/obj/Debug/net6.0/HM38HARD.genruntimeconfig.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM38HARD/obj/Debug/net6.0/ref/HM38HARD.dll
