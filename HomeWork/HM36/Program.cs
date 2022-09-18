@@ -25,17 +25,20 @@ void PrintArray(int[] mmm)
 }
 int OddSum(int[] array)
 {
-
-  int sum=0;
-  int k=0;
-  for(int i=0;i<array.Length;i++)
-  {
-    if (array[i]%2==0) k=array[i]; sum +=k;
-  }
-  return sum;
+    int sum = 0;
+    int k = 0;
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (i % 2 != 0)
+        {
+            k = array[i];
+            sum += k;
+        }
+    }
+    return sum;
 }
 
-int[] array = FillArray(4);
+int[] array = FillArray(7);
 PrintArray(array);
 int sum = OddSum(array);
 Console.WriteLine($"Сумма элементов нечетных чисел = {sum}");
