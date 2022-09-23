@@ -4,15 +4,13 @@
 
 int[] FillArray(string raw)
 {
-
-    string[] arrstr=raw.Split(", ");
-    int[] arrnum= new int[arrstr.Length];
+    string[] arrstr = raw.Split(", ");
+    int[] arrnum = new int[arrstr.Length];
     for (int i = 0; i < arrstr.Length; i++)
     {
-        arrnum[i] = Convert.ToInt32(arrstr[i]); 
+        arrnum[i] = Convert.ToInt32(arrstr[i]);
     }
     return arrnum;
-
 }
 void PrintArray(int[] mmm)
 {
@@ -25,19 +23,19 @@ void PrintArray(int[] mmm)
             Console.WriteLine($"{mmm[i]}]");
     }
 }
-int PositiveNum(int [] mass)
+int PositiveNum(int[] mass)
 {
-    int result=0;
+    int result = 0;
     for (int i = 0; i < mass.Length; i++)
     {
-        if (mass[i]>0) result++;
+        if (mass[i] > 0)
+            result++;
     }
-return result;
+    return result;
 }
-
-
 Console.WriteLine("Введите числа: ");
-string raw= Console.ReadLine();
+string raw = Console.ReadLine();
+
 // int[]mass=FillArray(raw);
 // PrintArray(mass);
 Console.WriteLine($"Чисел болеше нуля {PositiveNum(FillArray(raw))}");
