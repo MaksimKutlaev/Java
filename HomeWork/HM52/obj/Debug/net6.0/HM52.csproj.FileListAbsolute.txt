@@ -1,0 +1,15 @@
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM52/obj/Debug/net6.0/HM52.csproj.AssemblyReference.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM52/obj/Debug/net6.0/HM52.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM52/obj/Debug/net6.0/HM52.AssemblyInfoInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM52/obj/Debug/net6.0/HM52.AssemblyInfo.cs
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM52/obj/Debug/net6.0/HM52.csproj.CoreCompileInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM52/bin/Debug/net6.0/HM52
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM52/bin/Debug/net6.0/HM52.deps.json
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM52/bin/Debug/net6.0/HM52.runtimeconfig.json
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM52/bin/Debug/net6.0/HM52.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM52/bin/Debug/net6.0/HM52.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM52/obj/Debug/net6.0/HM52.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM52/obj/Debug/net6.0/refint/HM52.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM52/obj/Debug/net6.0/HM52.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM52/obj/Debug/net6.0/HM52.genruntimeconfig.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/HomeWork/HM52/obj/Debug/net6.0/ref/HM52.dll
