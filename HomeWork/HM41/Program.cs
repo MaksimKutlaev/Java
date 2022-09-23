@@ -35,7 +35,6 @@ int PositiveNum(int[] mass)
 }
 Console.WriteLine("Введите числа: ");
 string raw = Console.ReadLine();
-
 // int[]mass=FillArray(raw);
 // PrintArray(mass);
 Console.WriteLine($"Чисел болеше нуля {PositiveNum(FillArray(raw))}");
