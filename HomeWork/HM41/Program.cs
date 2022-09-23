@@ -33,7 +33,7 @@ int PositiveNum(int[] mass)
     }
     return result;
 }
-Console.WriteLine("Введите числа: ");
+Console.WriteLine("Введите числа через запятую: ");
 string raw = Console.ReadLine();
 // int[]mass=FillArray(raw);
 // PrintArray(mass);
