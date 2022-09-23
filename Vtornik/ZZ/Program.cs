@@ -245,9 +245,9 @@ void PrintArray(int[,] arr)
 }
 int Mass(int[,] mas)
 {
-for (int i = 0; i < arr.GetLength(0); i++)
+for (int i = 0; i < mas.GetLength(0); i++)
     {
-        for (int j = 0; j < arr.GetLength(1); j++)
+        for (int j = 0; j < mas.GetLength(1); j++)
         {
             int []mass =new mass(i*j);
             mass[i]= 
