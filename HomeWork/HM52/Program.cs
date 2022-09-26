@@ -33,26 +33,21 @@ void PrintArray(int[,] arr)
         }
     }
 }
-int Average(int[,] mas)
+double[] Average(int[,] mas)
 {
-    int res1 = 0;
-    int res2 = 0;
-    int res3 = 0;
-    int res4 = 0;
-    for (int i = 0; i < mas.GetLength; i++)
+    double []res = new double[mas.GetLength(1)];
+    
+    for (int i = 0; i < mas.GetLength(1); i++)
     {
-        for (int j = 0; j < mas.GetLength; j++)
+        double sum=0;
+        for (int j = 0; j < mas.GetLength(0); j++)
         {
-            res1 = mas[0, 0] + mas[1, 0] + mas[2, 0] / 3;
-            res2 = mas[0, 1] + mas[1, 1] + mas[2, 1] / 3;
-            res3 = mas[0, 2] + mas[1, 2] + mas[2, 2] / 3;
-            res4 = mas[0, 3] + mas[1, 3] + mas[2, 3] / 3;
+            sum=sum+mas[j,i];
+            
         }
+        res[i]=sum/mas.GetLength(0);
     }
-    return res1;
-    return res2;
-    return res3;
-    return res4;
+    return res;
 }
 
 System.Console.Write("Введите количество строк n = ");
@@ -61,8 +56,8 @@ System.Console.Write("Введите количество столбцов m = "
 int m = Convert.ToInt32(Console.ReadLine());
 int[,] newArray = FillMas(n, m);
 PrintArray(newArray);
-int average1 = Convert.ToInt32(Console.ReadLine());
-int average2 = Convert.ToInt32(Console.ReadLine());
-int average3 = Convert.ToInt32(Console.ReadLine());
-int average4 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine($"Среднее арифметическое 1 столбца = {Average(average1)}");
+double[] average=Average(newArray);
+for (int i = 0; i < average.Length; i++)
+{
+    Console.WriteLine($"Среднее арифметическое {i} столбца = {average[i]:F1}");
+}
