@@ -203,7 +203,7 @@ Console.Write($"{sum}");
 
 // Задача HARD SORT.
 
-// Задайте двумерный массив из целых чисел. Количество строк и столбцов задается с клавиатуры. Отсортировать элементы по возрастанию 
+// Задайте двумерный массив из целых чисел. Количество строк и столбцов задается с клавиатуры. Отсортировать элементы по возрастанию
 //слева направо и сверху вниз.
 
 // Например, задан массив:
@@ -222,7 +222,7 @@ int[,] FillMas(int n, int m)
     {
         for (int j = 0; j < m; j++)
         {
-            mas[i, j] = new Random().Next(-10, 11);
+            mas[i, j] = new Random().Next(10);
         }
     }
 
@@ -243,55 +243,59 @@ void PrintArray(int[,] arr)
         }
     }
 }
-int Mass(int[,] mas)
+int[] Arr(int[,] mas)
 {
-for (int i = 0; i < mas.GetLength(0); i++)
-    {
-        for (int j = 0; j < mas.GetLength(1); j++)
-        {
-            int []mass =new mass(i*j);
-            mass[i]= 
-        }
-    }
-}
-
-
-
-int Sort(int[,] mas)
-{
-    int t=0;
+    int[] mass = new int[mas.GetLength(0) * mas.GetLength(1)];
     for (int i = 0; i < mas.GetLength(0); i++)
     {
         for (int j = 0; j < mas.GetLength(1); j++)
         {
-            if (mas[i,j]>mas[i,j+1])
-                {
-                    mas[i,j]=mas[i,j+1];
-                    mas[i,j+1]=t;
-                    t=mas[i,j];
-
-                }
+            mass[i * mas.GetLength(1) + j] = mas[i, j];
         }
     }
-    return mas[];
+    return mass;
 }
-
-
+void BubbleSortArray(int[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+        for (int j = 0; j < array.Length - 1; j++)
+            if (array[j] > array[j + 1])
+            {
+                int t = array[j + 1];
+                array[j + 1] = array[j];
+                array[j] = t;
+            }
+}
+int[,] ConvertArr(int[] array, int line, int colon)
+{
+    int[,] arr = new int[line, colon];
+    for (int i = 0; i < line; i++)
+    {
+        for (int j = 0; j < colon; j++)
+        {
+            arr[i, j] = array[i * colon + j];
+        }
+    }
+    return arr;
+}
 System.Console.Write("Введите количество строк n = ");
 int n = Convert.ToInt32(Console.ReadLine());
 System.Console.Write("Введите количество столбцов m = ");
 int m = Convert.ToInt32(Console.ReadLine());
 int[,] newArray = FillMas(n, m);
 PrintArray(newArray);
-int sum=SumInd(newArray);
-Console.Write("Сумма= ");
-Console.Write($"{sum}");
+int[] array = Arr(newArray);
+BubbleSortArray(array);
+int[,] arr = ConvertArr(array, n, m);
+Console.WriteLine();
+PrintArray(arr);
 
 
-// **задача 2 HARD необязательная.** 
-//  Сгенерировать массив случайных целых чисел размерностью m*n (размерность вводим с клавиатуры) , 
-//  причем чтоб количество элементов было четное. Вывести на экран красивенько таблицей. 
-//  Перемешать случайным образом элементы массива, причем чтобы каждый гарантированно переместился на другое место 
-//  (возможно для этого удобно будет использование множества) и выполнить это за m*n / 2 итераций. 
+
+
+// **задача 2 HARD необязательная.**
+//  Сгенерировать массив случайных целых чисел размерностью m*n (размерность вводим с клавиатуры) ,
+//  причем чтоб количество элементов было четное. Вывести на экран красивенько таблицей.
+//  Перемешать случайным образом элементы массива, причем чтобы каждый гарантированно переместился на другое место
+//  (возможно для этого удобно будет использование множества) и выполнить это за m*n / 2 итераций.
 //  То есть если массив три на четыре, то надо выполнить не более 6 итераций. И далее в конце опять вывести на экран как таблицу.
-
