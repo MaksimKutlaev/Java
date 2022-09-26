@@ -1,4 +1,4 @@
-﻿// Задача 50. Напишите программу, которая на вход принимает позиции элемента в двумерном массиве, 
+﻿// Задача 50. Напишите программу, которая на вход принимает позиции элемента в двумерном массиве,
 // и возвращает значение этого элемента или же указание, что такого элемента нет.
 // Например, задан массив:
 // 1 4 7 2
@@ -35,24 +35,18 @@ void PrintArray(int[,] arr)
         }
     }
 }
-int SerachNum(int[,]mas, int a, int b)
+void PrintSerchNum(int[,] mas, int a, int b)
 {
- int result=0;
-    for (int i = 0; i < mas.GetLength(0); i++)
+    try
     {
-        for (int j = 0; j < mas.GetLength(1); j++)
-        {
-            if (a==i && b==j)
-                mas[i, j] = result;
-            else 
-            Console.WriteLine("Такого числа нет");
-
-        }
+        int result = mas[a, b];
+        Console.WriteLine($"{result}");
     }
-    return result;
+    catch
+    {
+        Console.WriteLine("Такого числа нет");
+    }
 }
-
-
 System.Console.Write("Введите количество строк n = ");
 int n = Convert.ToInt32(Console.ReadLine());
 System.Console.Write("Введите количество столбцов m = ");
@@ -60,9 +54,7 @@ int m = Convert.ToInt32(Console.ReadLine());
 int[,] newArray = FillMas(n, m);
 PrintArray(newArray);
 Console.WriteLine("Введите позиции строки = ");
-int a=Convert.ToInt32(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите позиции столбца = ");
-int b=Convert.ToInt32(Console.ReadLine());
-int res=SerachNum(result);
-Console.WriteLine($"{SerachNum(res)}");
-
+int b = Convert.ToInt32(Console.ReadLine());
+PrintSerchNum(newArray, a, b);
