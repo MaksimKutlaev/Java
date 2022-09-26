@@ -11,7 +11,7 @@ double[,] FillMas(int n, int m)
     {
         for (int j = 0; j < m; j++)
         {
-            mas[i, j] = new Random().NextDouble(-10, 10)*10;
+            mas[i, j] = new Random().NextDouble()*20-10;
         }
     }
 

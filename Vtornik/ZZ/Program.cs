@@ -264,16 +264,16 @@ int Sort(int[,] mas)
     {
         for (int j = 0; j < mas.GetLength(1); j++)
         {
-            if (array[i,j]>array[i,j+1])
+            if (mas[i,j]>mas[i,j+1])
                 {
-                    array[i,j]=array[i,j+1];
-                    array[i,j+1]=t;
-                    t=array[i,j];
+                    mas[i,j]=mas[i,j+1];
+                    mas[i,j+1]=t;
+                    t=mas[i,j];
 
                 }
         }
     }
-    return sum;
+    return mas[];
 }
 
 
