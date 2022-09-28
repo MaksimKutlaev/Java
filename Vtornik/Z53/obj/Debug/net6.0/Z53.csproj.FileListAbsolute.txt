@@ -1,0 +1,15 @@
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z53/bin/Debug/net6.0/Z53
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z53/bin/Debug/net6.0/Z53.deps.json
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z53/bin/Debug/net6.0/Z53.runtimeconfig.json
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z53/bin/Debug/net6.0/Z53.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z53/bin/Debug/net6.0/Z53.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z53/obj/Debug/net6.0/Z53.csproj.AssemblyReference.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z53/obj/Debug/net6.0/Z53.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z53/obj/Debug/net6.0/Z53.AssemblyInfoInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z53/obj/Debug/net6.0/Z53.AssemblyInfo.cs
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z53/obj/Debug/net6.0/Z53.csproj.CoreCompileInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z53/obj/Debug/net6.0/Z53.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z53/obj/Debug/net6.0/refint/Z53.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z53/obj/Debug/net6.0/Z53.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z53/obj/Debug/net6.0/Z53.genruntimeconfig.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Z53/obj/Debug/net6.0/ref/Z53.dll
