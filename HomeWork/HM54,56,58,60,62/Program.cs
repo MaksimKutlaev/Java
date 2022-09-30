@@ -157,6 +157,60 @@ Result(arrRes);
 // 18 20
 // 15 18
 
+int[,] FillMas(int n, int m)
+{
+    int[,] mas = new int[n, m];
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < m; j++)
+        {
+            mas[i, j] = new Random().Next(0, 10);
+        }
+    }
+
+    return mas;
+}
+void PrintArray(int[,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            Console.Write($"{array[i, j]} ");
+        }
+        Console.WriteLine();
+    }
+}
+int[,] MatrixPro(int[,] arrFirst, int[,] arrSecond)
+{
+    int[,] arrMatrix = new int[arrFirst.GetLength(0), arrSecond.GetLength(1)];
+    for (int i = 0; i < arrFirst.GetLength(0); i++)
+    {
+        for (int j = 0; j < arrSecond.GetLength(1); j++)
+        {
+            for (int k = 0; k < arrFirst.GetLength(1); k++)
+            {
+                arrMatrix[i, j] += arrFirst[i, k] * arrSecond[k, j];
+            }
+        }
+    }
+    return arrMatrix;
+}
+
+System.Console.Write("Введите количество строк n = ");
+int n = Convert.ToInt32(Console.ReadLine());
+System.Console.Write("Введите количество столбцов m = ");
+int m = Convert.ToInt32(Console.ReadLine());
+int[,] ArrayFirst = FillMas(n, m);
+int[,] ArraySecond = FillMas(n, m);
+PrintArray(ArrayFirst);
+Console.WriteLine();
+PrintArray(ArraySecond);
+int[,] ArrayThird = MatrixPro(ArrayFirst,ArraySecond);
+Console.WriteLine();
+PrintArray(ArrayThird);
+
+
 
 // Задача 60. ...Сформируйте трёхмерный массив из неповторяющихся двузначных чисел. Напишите программу, которая будет построчно выводить массив,
 //добавляя индексы каждого элемента.
@@ -165,7 +219,7 @@ Result(arrRes);
 // 34(1,0,0) 41(1,1,0)
 // 27(0,0,1) 90(0,1,1)
 // 26(1,0,1) 55(1,1,1)
-
+/*
 int[,,] FillMas(int n)
 {
     int[,,] mas = new int[n, n, n];
@@ -215,7 +269,6 @@ void Print3DArray(int[,,] array)
             }
             Console.WriteLine();
 
-            //Console.ReadKey();
         }
     }
 }
@@ -224,7 +277,7 @@ int n = Convert.ToInt32(Console.ReadLine());
 int[,,] newArray = FillMas(n);
 Print3DArray(newArray);
 
-
+*/
 // Задача 62. Напишите программу, которая заполнит спирально массив 4 на 4.
 // Например, на выходе получается вот такой массив:
 // 01 02 03 04
