@@ -1,0 +1,15 @@
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Finale/bin/Debug/net6.0/Finale
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Finale/bin/Debug/net6.0/Finale.deps.json
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Finale/bin/Debug/net6.0/Finale.runtimeconfig.json
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Finale/bin/Debug/net6.0/Finale.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Finale/bin/Debug/net6.0/Finale.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Finale/obj/Debug/net6.0/Finale.csproj.AssemblyReference.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Finale/obj/Debug/net6.0/Finale.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Finale/obj/Debug/net6.0/Finale.AssemblyInfoInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Finale/obj/Debug/net6.0/Finale.AssemblyInfo.cs
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Finale/obj/Debug/net6.0/Finale.csproj.CoreCompileInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Finale/obj/Debug/net6.0/Finale.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Finale/obj/Debug/net6.0/refint/Finale.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Finale/obj/Debug/net6.0/Finale.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Finale/obj/Debug/net6.0/Finale.genruntimeconfig.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Vtornik/Finale/obj/Debug/net6.0/ref/Finale.dll
