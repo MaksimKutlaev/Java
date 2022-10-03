@@ -64,6 +64,7 @@ Console.WriteLine(SumNum(1123));
 // A = 2; B = 3 -> 8
 // 3,5
 //Pow(2,3) 2*(2,2){2*(2,1)}1(2)
+/*
 int Pow(int A, int B)
 {
     if (B == 1)
@@ -71,3 +72,4 @@ int Pow(int A, int B)
     return A * Pow(A, B - 1);
 }
 Console.WriteLine(Pow(3, 5));
+*/
