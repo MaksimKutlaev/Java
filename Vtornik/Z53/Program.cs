@@ -125,31 +125,31 @@ PrintArray(array);
 // 11 16 15 06
 // 10 09 08 07
 
-int[,] Square(int m)
-{
-    int[,] mas = new int[m, m];
-    for (int i = 0; i < n; i++)
-    {
-        for (int j = 0; j < m; j++)
-        {
-            mas[i, j] = new Random().Next(10);
-        }
-    }
+// int[,] Square(int m)
+// {
+//     int[,] mas = new int[m, m];
+//     for (int i = 0; i < n; i++)
+//     {
+//         for (int j = 0; j < m; j++)
+//         {
+//             mas[i, j] = new Random().Next(10);
+//         }
+//     }
 
-    return mas;
-}
-void PrintArray(int[,] arr)
-{
-    for (int i = 0; i < arr.GetLength(0); i++)
-    {
-        for (int j = 0; j < arr.GetLength(1); j++)
-        {
-            if (j != arr.GetLength(1) - 1)
-                Console.Write($"{arr[i, j]}, ");
-            else if (i == arr.GetLength(0) - 1 && j == arr.GetLength(1) - 1)
-                Console.WriteLine($"{arr[i, j]}");
-            else if (j == arr.GetLength(1) - 1)
-                Console.WriteLine($"{arr[i, j]},");
-        }
-    }
-}
+//     return mas;
+// }
+// void PrintArray(int[,] arr)
+// {
+//     for (int i = 0; i < arr.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < arr.GetLength(1); j++)
+//         {
+//             if (j != arr.GetLength(1) - 1)
+//                 Console.Write($"{arr[i, j]}, ");
+//             else if (i == arr.GetLength(0) - 1 && j == arr.GetLength(1) - 1)
+//                 Console.WriteLine($"{arr[i, j]}");
+//             else if (j == arr.GetLength(1) - 1)
+//                 Console.WriteLine($"{arr[i, j]},");
+//         }
+//     }
+// }
