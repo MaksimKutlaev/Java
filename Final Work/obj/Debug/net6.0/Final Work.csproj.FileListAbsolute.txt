@@ -1,0 +1,15 @@
+/Users/maksimkutlaev/Desktop/GeekBrains/Final Work/obj/Debug/net6.0/Final Work.csproj.AssemblyReference.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Final Work/obj/Debug/net6.0/Final Work.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimkutlaev/Desktop/GeekBrains/Final Work/obj/Debug/net6.0/Final Work.AssemblyInfoInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Final Work/obj/Debug/net6.0/Final Work.AssemblyInfo.cs
+/Users/maksimkutlaev/Desktop/GeekBrains/Final Work/obj/Debug/net6.0/Final Work.csproj.CoreCompileInputs.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Final Work/bin/Debug/net6.0/Final Work
+/Users/maksimkutlaev/Desktop/GeekBrains/Final Work/bin/Debug/net6.0/Final Work.deps.json
+/Users/maksimkutlaev/Desktop/GeekBrains/Final Work/bin/Debug/net6.0/Final Work.runtimeconfig.json
+/Users/maksimkutlaev/Desktop/GeekBrains/Final Work/bin/Debug/net6.0/Final Work.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/Final Work/bin/Debug/net6.0/Final Work.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/Final Work/obj/Debug/net6.0/Final Work.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/Final Work/obj/Debug/net6.0/refint/Final Work.dll
+/Users/maksimkutlaev/Desktop/GeekBrains/Final Work/obj/Debug/net6.0/Final Work.pdb
+/Users/maksimkutlaev/Desktop/GeekBrains/Final Work/obj/Debug/net6.0/Final Work.genruntimeconfig.cache
+/Users/maksimkutlaev/Desktop/GeekBrains/Final Work/obj/Debug/net6.0/ref/Final Work.dll
