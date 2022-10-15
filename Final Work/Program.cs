@@ -30,7 +30,7 @@ string[] ChangeArray(string[] mas)
     {
         if (mas[i].Length <= 3)
         {
-            Array.Resize(ref newarr, 1+j);
+            Array.Resize(ref newarr, j+1);
             newarr[j] = mas[i];
             j++;
         }
