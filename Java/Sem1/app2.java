@@ -1,6 +1,6 @@
 
 import java.util.*;
-import java.lang.Math;
+
 
 public class app2 {
   private static Random random = new Random();
