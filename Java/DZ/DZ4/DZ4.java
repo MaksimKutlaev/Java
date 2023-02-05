@@ -31,7 +31,7 @@ public class DZ4 {
     arrayMap [4][2]=1;
 
     arrayMap [1][7]=-2;
-    arrayMap [8][9 .]=-2;
+    arrayMap [8][9]=-2;
     //System.out.println();
     print(arrayMap);
 }
