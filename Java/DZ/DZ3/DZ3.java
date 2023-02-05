@@ -29,7 +29,7 @@ public class DZ3 {
         }     
 public static void main(String[] args){
 
-        int M=10;
+        int M=8;
         int N=8;
         int x=0;
         int y=0;
