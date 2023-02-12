@@ -3,105 +3,154 @@ package DZ.DZ4.New;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
+import java.util.Queue;
 
 public class DZ4new {
-        public static void main(String[] args) {
-            int[][] arrayMap = new int[9][10];
+    public static void main(String[] args) {
+    
+        var mg = new MapGenerator();
+        System.out.println(new MapPrinter().MapGenerator(mg.getMap()));
 
-            List<Point2D> filled = new LinkedList<>();
-            /*добавляем координаты зараженных областей*/
-            filled.add(new Point2D(1,1));
-            filled.add(new Point2D(1,2));
-            filled.add(new Point2D(1,3));
-            filled.add(new Point2D(2,3));
-            filled.add(new Point2D(3,3));
-            filled.add(new Point2D(3,4));
-            filled.add(new Point2D(3,5));
-            filled.add(new Point2D(4,3));
-            filled.add(new Point2D(4,6));
-            filled.add(new Point2D(5,3));
-            filled.add(new Point2D(5,6));
-            filled.add(new Point2D(6,3));
-            filled.add(new Point2D(6,6));
-            filled.add(new Point2D(7,1));
-            filled.add(new Point2D(7,2));
-            filled.add(new Point2D(7,3));
-            filled.add(new Point2D(7,6));
-            filled.add(new Point2D(7,7));
-            block(arrayMap, filled);
-            List<Point2D> startList = LinkedList<>();
-            startList.add(new Point2D(4, 2));
-            var c=startPos(arrayMap, filled);
-            filled.add(new Point2D(1, 7));
-            filled.add(new Point2D(8, 9));
-            var end=endPos(arrayMap, filled);
-            print(arrayMap);
+        var c = new Point2D(4, 2);
+        var lee = new WaveAlgorithm(mg.getMap());
+        lee.Stepbystep(c);
+
+        System.out.println(new MapPrinter().rawData(mg.getMap()));
+
+        mg.map[c.x][c.y] = -2;
+        System.out.println();
+        System.out.println();
+        System.out.println(new MapPrinter().mapColor(mg.map));
+            
     }
 
-    public static void block(int[][] area, List<Point2D> filled) {
-        for (Point2D point : filled) {
-            area[point.x][point.y] = -1;
+
+
+    class Point2D {
+    
+        int x, y;
+    
+        public void setX(int x) {
+            this.x = x;
         }
-    }
-
-    public static void startPos(int[][] area, List<Point2D> filled) {
-        for (Point2D point : filled) {
-            area[point.x][point.y] = 1;
+    
+        public void setY(int y) {
+            this.y = y;
         }
-    }
-    public static void endPos(int[][] area, List<Point2D> filled) {
-        for (Point2D point : filled) {
-            area[point.x][point.y] = -2;
-        }
-    }
-
-    public static void print(int[][] area) {
-        for (int[] row : area) {
-            for (int element : row) {
-                System.out.format("%5d", element);
-            }
-            System.out.println();
-        }
-    }
-
-
-    private static class Point2D {
-        private int x;
-        private int y;
- 
-        Point2D(int x, int y) {
+    
+        public Point2D(int x, int y) {
             this.x = x;
             this.y = y;
         }
- 
-        int getX() {
+    
+        public int getX() {
             return x;
         }
- 
-        int getY() {
+    
+        public int getY() {
             return y;
         }
- 
-        @Override
-        public boolean equals(Object o) {
-            if (this == o) return true;
-            if (o == null || getClass() != o.getClass()) return false;
-            Point2D point = (Point2D) o;
-            return x == point.x &&
-                    y == point.y;
-        }
- 
-        @Override
-        public int hashCode() {
-            return Objects.hash(x, y);
-        }
- 
+    
         @Override
         public String toString() {
-            return "Point2D{" +
-                    "x=" + x +
-                    ", y=" + y +
-                    '}';
+            return String.format("x: %d  y: %d", x, y);
+        }
+    
+        @Override
+        public boolean equals(Object obj) {
+            Point2D t = (Point2D) obj;
+            return this.x == t.x && this.y == t.y;
         }
     }
+
+    class MapGenerator {
+        int[][] map;
+
+        public MapGenerator(){
+            int [][] map = new int[9][10];
+
+            map [1][1]=-1;
+            map [1][2]=-1;
+            map [1][3]=-1;
+            map [2][4]=-1;
+            map [3][3]=-1;
+            map [3][4]=-1;
+            map [3][5]=-1;
+            map [4][3]=-1;
+            map [4][6]=-1;
+            map [5][3]=-1;
+            map [5][6]=-1;
+            map [6][3]=-1;
+            map [6][6]=-1;
+            map [7][1]=-1;
+            map [7][2]=-1;
+            map [7][3]=-1;
+            map [7][6]=-1;
+            map [7][7]=-1;
+
+        }
+        
+        public int[][] getMap() {
+            return map;
+        }
+
+        public void setCat(Point2D pos) {
+            map[pos.x][pos.y] = 1;
+        }
+
+        public void setExit(Point2D pos) {
+            map[pos.x][pos.y] = -2;
+        }
+    }
+
+    class MapPrinter{
+
+        public static void print(int[][] area) {
+            for (int[] row : area) {
+                for (int element : row) {
+                    System.out.format("%5d", element);
+                }
+                System.out.println();
+            }
+        }
+    }
+
+    class WaveAlgorithm{
+    int[][] map;
+
+        public WaveAlgorithm(int[][] map) {
+            this.map = map;
+        }
+
+        public void Stepbystep(Point2D startPoint) {
+            Queue<Point2D> queue = new LinkedList<Point2D>();
+            queue.add(startPoint);
+            map[startPoint.x][startPoint.y] = 1;
+    
+            while (queue.size() != 0) {
+                Point2D p = queue.remove();
+    
+                if (map[p.x - 1][p.y] == 0) {
+                    queue.add(new Point2D(p.x - 1, p.y));
+                    map[p.x - 1][p.y] = map[p.x][p.y] + 1;
+                }
+                if (map[p.x][p.y - 1] == 0) {
+                    queue.add(new Point2D(p.x, p.y - 1));
+                    map[p.x][p.y - 1] = map[p.x][p.y] + 1;
+                }
+                if (map[p.x + 1][p.y] == 0) {
+                    queue.add(new Point2D(p.x + 1, p.y));
+                    map[p.x + 1][p.y] = map[p.x][p.y] + 1;
+                }
+                if (map[p.x][p.y + 1] == 0) {
+                    queue.add(new Point2D(p.x, p.y + 1));
+                    map[p.x][p.y + 1] = map[p.x][p.y] + 1;
+                }
+            }
+        }
+
+
+    }
+
+
 }

@@ -25,11 +25,7 @@ public class DZ4_sem {
         var lee = new WaveAlgorithm(mg.getMap());
         lee.Colorize(c);
 
-        System.out.println(
-        new MapPrinter().rawData(
-        mg.getMap())
-
-        );
+        System.out.println(new MapPrinter().rawData(mg.getMap()));
 
         mg.map[c.x][c.y] = -2;
         System.out.println();

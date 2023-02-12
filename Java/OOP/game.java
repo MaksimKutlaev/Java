@@ -17,8 +17,10 @@ public class game {
         Monk Sif = new Monk("Sif");
         Spearman Gross = new Spearman("Gross");
         Rogue Minas = new Rogue("Minas");
-        
 
+
+
+        System.out.println(Jim.Attack(0, 0, 0));
         System.out.println(Robin.Attack(100, 20, 50));
         
     }
