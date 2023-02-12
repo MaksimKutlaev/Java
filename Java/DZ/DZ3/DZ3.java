@@ -23,7 +23,7 @@ public class DZ3 {
             int n=(M-1-x)+(N-1-y);
             return n;
         }
-        static int startM(int x, int y, int M){
+        static int startR(int x, int y, int M){
             int r=(M-1-x);
             return r;
         }     
@@ -37,7 +37,7 @@ public static void main(String[] args){
         //double d=getFactorial(start1);
         //System.out.println(d);
         //System.out.println(start1);
-        double start2=startM(x, y, M);
+        double start2=startR(x, y, M);
         //System.out.println(start2);
         double result=kombination(start1, start2);
         System.out.println(result);
