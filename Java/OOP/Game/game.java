@@ -1,6 +1,7 @@
 package Game;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 import Game.Unit.Magican;
@@ -32,6 +33,38 @@ public class game {
 
     private static String getName(){
         return String.valueOf(Names.values()[new Random().nextInt(Names.values().length-1)]);
+    }
+
+    List<UnitClass> red = new ArrayList<>();
+
+    int quantity;
+    for (int index=0; index<10;index++){
+        switch (new Random().nextInt(0,3)) {
+            case 0:
+                red.add(new Magican(getName()));
+                break;
+            case 1:
+                red.add(new Sniper(getName()));
+                break;
+            case 2:
+                red.add(new Rogue(getName()));
+                break;
+            case 3:
+                red.add(new Peasant(getName()));
+                break;
+        }
+    }
+    
+    red.sort(new Comporator<UnitClass>()){
+
+        @Override
+        public int compare(UnitClass o1, UnitClass o2) {
+            if (o2.getSpeed()==o1.getSpeed()) return o2.getHP()-o1.getHP();
+
+            return o2.getSpeed()-o1.getSpeed();
+
+
+        }
     }
 
 

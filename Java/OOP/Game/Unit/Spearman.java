@@ -3,7 +3,7 @@ package Game.Unit;
 public class Spearman extends Warrior{
 
     public Spearman(String name) {
-        super(name, 400, 400, 120, 75, 90);
+        super(name, 10, 10, 5, 4, 1, 3, 4, 1);
     }
     
     @Override

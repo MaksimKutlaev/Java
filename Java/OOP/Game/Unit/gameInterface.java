@@ -4,4 +4,5 @@ public interface gameInterface {
     
     void step();
     String getInfo();
+    int compare();
 }

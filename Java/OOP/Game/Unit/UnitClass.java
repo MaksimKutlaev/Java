@@ -7,19 +7,20 @@ public abstract class UnitClass implements gameInterface {
     protected int maxHp;
     protected int defence;
     protected int damage;
+    protected int minDamage;
+    protected int maxDamage;
+    protected int speed;
 
-    public int Attack(int hp, int defence, int damage) {
-        hp=hp+defence-damage;
-        return hp;
-    }
-
-    public UnitClass (String name, int hp, int maxHp, int defence, int damage)
+    public UnitClass (String name, int hp, int maxHp, int defence, int damage, int minDamage, int maxDamage, int speed)
     {
         this.name=name;
         this.hp=hp;
         this.maxHp=maxHp;
         this.defence=defence;
         this.damage=damage;
+        this.minDamage=minDamage;
+        this.maxDamage=maxDamage;
+        this.speed=speed;
     }
 
     @Override
@@ -32,4 +33,18 @@ public abstract class UnitClass implements gameInterface {
         
         return ("null");
     }
+
+    public int getHP() {
+        return 0;
+    }
+
+    public Object getSpeed() {
+        return null;
+    }
+
+    // public int compare(){
+    //     return ;
+    // }
+
+    
 }

@@ -2,8 +2,11 @@ package Game.Unit;
 
 public class Peasant extends UnitClass{
 
+    int delivery;
+
     public Peasant(String name) {
-        super(name, 100, 100, 30, 10);
+        super(name, 1, 1, 1, 1, 1, 1, 3);
+        this.delivery=delivery;
         
     }
 
@@ -13,8 +16,14 @@ public class Peasant extends UnitClass{
     }
     @Override
     public void step() {
-        // TODO Auto-generated method stub
+    
         super.step();
+    }
+
+    @Override
+    public int compare() {
+        
+        return 0;
     }
     
 }

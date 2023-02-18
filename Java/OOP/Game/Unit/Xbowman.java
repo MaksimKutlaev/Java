@@ -3,7 +3,7 @@ package Game.Unit;
 public class Xbowman extends Arrows{
 
     public Xbowman(String name) {
-        super(name, 300, 300, 100, 70, 60);
+        super(name, 10, 10, 3, 6, 2, 3, 10, 16);
         
     }
 

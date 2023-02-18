@@ -3,7 +3,7 @@ package Game.Unit;
 public class Magican extends Wizards{
 
     public Magican(String name) {
-        super(name, 200, 200, 50, 90, 200);
+        super(name,30 , 30, 10, 12, -5, -5, 30, 1);
     }
     
     @Override

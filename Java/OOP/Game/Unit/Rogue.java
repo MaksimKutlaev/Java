@@ -3,7 +3,7 @@ package Game.Unit;
 public class Rogue extends Warrior{
 
     public Rogue(String name) {
-        super(name, 300, 300, 70, 80, 90);
+        super(name, 10, 10, 3, 8, 2, 4, 6, 1);
     }
  
     @Override
