@@ -12,7 +12,7 @@ public class Arrows extends UnitClass {
 
     @Override
     public int compare() {
-        // TODO Auto-generated method stub
+        
         return 0;
     }
     

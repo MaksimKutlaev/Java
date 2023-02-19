@@ -1,5 +1,7 @@
 package Game.Unit;
 
+
+
 public abstract class UnitClass implements gameInterface {
 
     protected String name;
@@ -31,19 +33,22 @@ public abstract class UnitClass implements gameInterface {
     @Override
     public String getInfo() {
         
-        return ("null");
+        return String.format("Hero: %s Name: %s Health: %d Speed: %d, maxDamage: %d, minDamage: %d",
+        this.name, this.hp, this.speed, this.maxDamage, this.minDamage, this.getClass().getSimpleName());
     }
 
     public int getHP() {
         return 0;
     }
 
-    public Object getSpeed() {
-        return null;
+    public int getSpeed() {
+        return speed;
     }
 
-    // public int compare(){
-    //     return ;
+   
+
+    // public int compare(UnitClass o1,UnitClass o2){
+    //     return o1.getSpeed().compareTo(o2.getSpeed());
     // }
 
     
