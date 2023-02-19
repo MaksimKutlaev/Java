@@ -34,7 +34,7 @@ public abstract class UnitClass implements gameInterface {
     @Override
     public String getInfo() {
         
-        return String.format("Я %s Name: %s Health: %d Speed: %d, maxDamage: %d, minDamage: %d",
+        return String.format("Я %s\t Name: %s\t Health: %d\t Speed: %d\t maxDamage: %d\t minDamage: %d",
         this.unitType.getTitle(), this.name, this.hp, this.speed, this.maxDamage, this.minDamage);
     }
 
