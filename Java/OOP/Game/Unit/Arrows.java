@@ -5,7 +5,7 @@ public class Arrows extends UnitClass {
     protected int shot;
 
     public Arrows(String name, int hp, int maxHp, int defence, int damage, int minDamage, int maxDamage, int speed, int shot) {
-        super(name, hp, maxHp, defence, damage, minDamage, maxDamage, speed);
+        super(name, hp, maxHp, defence, damage, minDamage, maxDamage, speed, UnitClassType.Xbowman);
         this.shot=shot;
         
     }

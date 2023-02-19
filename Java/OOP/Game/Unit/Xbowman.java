@@ -7,10 +7,10 @@ public class Xbowman extends Arrows{
         
     }
 
-    @Override
-    public String getInfo() {
-        return "Я Арбалетчик " + name;
-    }
+    // @Override
+    // public String getInfo() {
+    //     return "Я Арбалетчик " + name;
+    // }
     @Override
     public void step() {
         

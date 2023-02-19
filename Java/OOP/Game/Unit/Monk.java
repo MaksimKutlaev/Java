@@ -6,10 +6,10 @@ public class Monk extends Wizards{
         super(name, 30, 30, 7, 21, -4, -4, 5, 1);
     }
 
-    @Override
-    public String getInfo() {
-        return "Я Монах "+name;
-    }
+    // @Override
+    // public String getInfo() {
+    //     return "Я Монах "+name;
+    // }
     @Override
     public void step() {
         

@@ -1,7 +1,6 @@
 package Game.Unit;
 
 
-
 public abstract class UnitClass implements gameInterface {
 
     protected String name;
@@ -12,8 +11,9 @@ public abstract class UnitClass implements gameInterface {
     protected int minDamage;
     protected int maxDamage;
     protected int speed;
+    protected UnitClassType unitType;
 
-    public UnitClass (String name, int hp, int maxHp, int defence, int damage, int minDamage, int maxDamage, int speed)
+    public UnitClass (String name, int hp, int maxHp, int defence, int damage, int minDamage, int maxDamage, int speed, UnitClassType type)
     {
         this.name=name;
         this.hp=hp;
@@ -23,6 +23,7 @@ public abstract class UnitClass implements gameInterface {
         this.minDamage=minDamage;
         this.maxDamage=maxDamage;
         this.speed=speed;
+        this.unitType=type;
     }
 
     @Override
@@ -33,23 +34,18 @@ public abstract class UnitClass implements gameInterface {
     @Override
     public String getInfo() {
         
-        return String.format("Hero: %s Name: %s Health: %d Speed: %d, maxDamage: %d, minDamage: %d",
-        this.name, this.hp, this.speed, this.maxDamage, this.minDamage, this.getClass().getSimpleName());
+        return String.format("Я %s Name: %s Health: %d Speed: %d, maxDamage: %d, minDamage: %d",
+        this.unitType.getTitle(), this.name, this.hp, this.speed, this.maxDamage, this.minDamage);
     }
 
     public int getHP() {
-        return 0;
+        return hp;
     }
 
     public int getSpeed() {
         return speed;
     }
 
-   
-
-    // public int compare(UnitClass o1,UnitClass o2){
-    //     return o1.getSpeed().compareTo(o2.getSpeed());
-    // }
 
     
 }

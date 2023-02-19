@@ -54,7 +54,6 @@ public class game {
                 return o2.getSpeed()- o1.getSpeed();
             }
         });
-        // teamInfo(red);
         
         for (int index=0; index<10;index++){
             switch (new Random().nextInt(0,4)) {
@@ -73,12 +72,11 @@ public class game {
             }
             
         }
-        red.sort (new Comparator<UnitClass>(){
+        blue.sort (new Comparator<UnitClass>(){
             @Override
             public int compare(UnitClass o1, UnitClass o2) {
                 if (o2.getSpeed()==o1.getSpeed()) return o2.getHP()-o1.getHP();
                 
-    
                 return o2.getSpeed()- o1.getSpeed();
             }
         });
@@ -86,7 +84,9 @@ public class game {
         red.forEach(n->System.out.println(n.getInfo()));
         System.out.println();
         blue.forEach(n->System.out.println(n.getInfo()));
-        
+        // teamInfo(red);
+        // teamInfo(blue);
+
         
 
     }

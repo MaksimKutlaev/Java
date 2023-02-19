@@ -7,10 +7,10 @@ public class Sniper extends Arrows{
         
     }
     
-    @Override
-    public String getInfo() {
-        return "Я Снайпер "+name;
-    }
+    // @Override
+    // public String getInfo() {
+    //     return "Я Снайпер "+name;
+    // }
 
     @Override
     public void step() {
