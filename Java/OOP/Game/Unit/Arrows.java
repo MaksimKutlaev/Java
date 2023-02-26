@@ -7,7 +7,7 @@ public class Arrows extends UnitClass {
     protected int shot;
     protected int arrow;
 
-    public Arrows(String name, int hp, int maxHp, int defence, int damage, int minDamage, int maxDamage, int speed, int shot, int x, int y) {
+    public Arrows(String name, float hp, int maxHp, int defence, int damage, int minDamage, int maxDamage, int speed, int shot, int arrow, int x, int y) {
         super(name, hp, maxHp, defence, damage, minDamage, maxDamage, speed, UnitClassType.Xbowman, x, y);
         this.shot=shot;
         this.arrow=arrow;
@@ -30,5 +30,14 @@ public class Arrows extends UnitClass {
         }
         arrow--;
     }
+
+    @Override
+    public String getInfo() {
+        
+        return String.format("%s:\t %s\t Health: %f\t Speed: %d\t Arrow: %d\t posX: %d  posY: %d",
+        this.unitType.getTitle(), this.name, this.hp, this.speed, this.arrow, this.coords.x, this.coords.y);
+    }
+
+  
     
 }

@@ -6,14 +6,5 @@ public class Spearman extends Warrior{
         super(name, 10, 10, 5, 4, 1, 3, 4,1,coords.x,coords.y);
     }
     
-    // @Override
-    // public String getInfo() {
-    //     return "Я Копейщик "+name+"HP " +hp+"SP "+speed;
-        
-    // }
-    @Override
-    public void step() {
-    
-        super.step();
-    }
+
 }

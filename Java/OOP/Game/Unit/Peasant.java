@@ -10,20 +10,5 @@ public class Peasant extends UnitClass{
         
     }
 
-    // @Override
-    // public String getInfo() {
-    //     return "Я Крестьянин "+name;
-    // }
-    @Override
-    public void step() {
-    
-        super.step();
-    }
 
-    @Override
-    public int compare() {
-        
-        return 0;
-    }
-    
 }

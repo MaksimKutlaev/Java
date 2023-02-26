@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public abstract class UnitClass implements gameInterface {
 
     protected String name;
-    protected int hp;
+    protected float hp;
     protected int maxHp;
     protected int defence;
     protected int damage;
@@ -16,7 +16,7 @@ public abstract class UnitClass implements gameInterface {
     protected Point coords;
     protected String state;
 
-    public UnitClass (String name, int hp, int maxHp, int defence, int damage, int minDamage, int maxDamage, 
+    public UnitClass (String name, float hp, int maxHp, int defence, int damage, int minDamage, int maxDamage, 
     int speed, UnitClassType type, int x, int y)
     {
         this.name=name;
@@ -46,18 +46,16 @@ public abstract class UnitClass implements gameInterface {
     }
 
     @Override
-    public void step() {
-        
-    }
+    public void step(ArrayList<UnitClass> team1, ArrayList<UnitClass> team2) { }
 
     @Override
     public String getInfo() {
         
-        return String.format("Я %s\t Name: %s\t Health: %d\t Speed: %d\t maxDamage: %d\t minDamage: %d",
-        this.unitType.getTitle(), this.name, this.hp, this.speed, this.maxDamage, this.minDamage);
+        return String.format("%s:\t Name: %s\t Health: %d\t Speed: %d\t posX: %d,  posY: %d",
+        this.unitType.getTitle(), this.name, this.hp, this.speed, this.coords.x, this.coords.y);
     }
 
-    public void step(ArrayList<UnitClass> team1, ArrayList<UnitClass> team2) { }
+    
 
     protected void getDamage(float damage){
         this.hp -= damage;
@@ -68,7 +66,7 @@ public abstract class UnitClass implements gameInterface {
         if (hp > maxHp) hp = maxHp;
     }
 
-    public int getHP() {
+    public float getHP() {
         return hp;
     }
 

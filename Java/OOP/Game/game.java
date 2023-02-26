@@ -29,6 +29,17 @@ public class game {
         allTeam.addAll(blue);
         sortArmy(allTeam);
         allTeam.forEach(n->System.out.println(n.getInfo()));
+        System.out.println();
+
+        String stop = "";
+        while (stop.equals("")) {
+            for (UnitClass unit : allTeam) {
+                if (red.contains(unit)) unit.step(red, blue);
+                else unit.step(blue, red);
+            }
+            allTeam.forEach(n -> System.out.println(n.getInfo()));
+            stop = user_input.nextLine();
+        }
         // System.out.println();
         // // red.forEach(n->System.out.println(n.getInfo()));
         // // System.out.println();
@@ -68,7 +79,7 @@ public class game {
             team.sort(new Comparator<UnitClass>(){
             @Override
             public int compare(UnitClass o1, UnitClass o2){
-                if (o2.getSpeed()==o1.getSpeed()) return o2.getHP()-o1.getHP();               
+                if (o2.getSpeed()==o1.getSpeed()) return (int) (o2.getHP()-o1.getHP());               
                 return o2.getSpeed()- o1.getSpeed();
             }
             

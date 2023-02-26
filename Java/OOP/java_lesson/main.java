@@ -23,6 +23,7 @@ public class main {
             if (holyTeam.contains(human)) human.step(holyTeam, darkTeam);
             else human.step(darkTeam, holyTeam);
         }
+        allTeam.forEach(n -> System.out.println(n.getInfo()));
     }
     static void createTeam (ArrayList<Human> team, int offset, int posY) {
         for (int i = 0; i < UNITS; i++) {
