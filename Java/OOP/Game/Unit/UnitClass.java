@@ -12,8 +12,10 @@ public abstract class UnitClass implements gameInterface {
     protected int maxDamage;
     protected int speed;
     protected UnitClassType unitType;
+    protected Point coords;
 
-    public UnitClass (String name, int hp, int maxHp, int defence, int damage, int minDamage, int maxDamage, int speed, UnitClassType type)
+    public UnitClass (String name, int hp, int maxHp, int defence, int damage, int minDamage, int maxDamage, 
+    int speed, UnitClassType type, int x, int y)
     {
         this.name=name;
         this.hp=hp;
@@ -24,6 +26,7 @@ public abstract class UnitClass implements gameInterface {
         this.maxDamage=maxDamage;
         this.speed=speed;
         this.unitType=type;
+        coords = new Point(x,y);
     }
 
     @Override

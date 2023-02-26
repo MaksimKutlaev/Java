@@ -4,8 +4,8 @@ public class Peasant extends UnitClass{
 
     int delivery;
 
-    public Peasant(String name) {
-        super(name, 1, 1, 1, 1, 1, 1, 3, UnitClassType.Peasant);
+    public Peasant(String name, Point x, Point y) {
+        super(name, 1, 1, 1, 1, 1, 1, 3, UnitClassType.Peasant, 0,0);
         this.delivery=delivery;
         
     }

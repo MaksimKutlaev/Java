@@ -16,23 +16,15 @@ import Game.Unit.Xbowman;
 
 public class game {
     public static void main(String[] args){ 
-
-        // ArrayList<UnitClass> list = new ArrayList<>();
-        // list.add(new Xbowman(getName()));
-        // list.add(new Sniper(getName()));
-        // list.add(new Monk(getName()));
-        // list.add(new Magican(getName()));
-        // list.add(new Peasant(getName()));
-        // list.add(new Rogue(getName()));
-        // list.add(new Spearman(getName()));
+        
         List<UnitClass> red = new ArrayList<>();
         List<UnitClass> blue = new ArrayList<>();
-        int quantity;
+        //int quantity;
         
         for (int index=0; index<10;index++){
             switch (new Random().nextInt(0,4)) {
                 case 0:
-                    red.add(new Magican(getName()));
+                    red.add(new Magican(getName(), null, null));
                     break;
                 case 1:
                     red.add(new Sniper(getName()));
@@ -41,7 +33,7 @@ public class game {
                     red.add(new Rogue(getName()));
                     break;
                 case 3:
-                    red.add(new Peasant(getName()));
+                    red.add(new Peasant(getName(), null, null));
                     break;
             }
         }
@@ -67,7 +59,7 @@ public class game {
                     blue.add(new Monk(getName()));
                     break;
                 case 3:
-                    blue.add(new Peasant(getName()));
+                    blue.add(new Peasant(getName(), null, null));
                     break;
             }
             
