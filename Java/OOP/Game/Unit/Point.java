@@ -7,6 +7,9 @@ public class Point {
     public Point(int x,int y){
         this.x=x;
         this.y=y;
+    }
 
+    protected double getDistance(Point oponent){
+        return Math.sqrt(Math.pow(x - oponent.x,2) + Math.pow(y - oponent.y,2));
     }
 }

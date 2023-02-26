@@ -1,7 +1,5 @@
 package Unit;
 
-import Unit.Human;
-
 public abstract class Mag extends Human {
     protected int mana;
     protected int maxMana;

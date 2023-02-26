@@ -24,7 +24,7 @@ public class main {
             else human.step(darkTeam, holyTeam);
         }
     }
-    static void createTeam (ArrayList team, int offset, int posY) {
+    static void createTeam (ArrayList<Human> team, int offset, int posY) {
         for (int i = 0; i < UNITS; i++) {
             int rnd = new Random().nextInt(4)+offset;
             switch (rnd) {
