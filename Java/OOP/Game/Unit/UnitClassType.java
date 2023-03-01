@@ -2,7 +2,7 @@ package Game.Unit;
 
 public enum UnitClassType{
     Magican ("Маг     "),
-   Monk ("Монах"),
+   Monk ("Монах    "),
    Peasant ("Крестьянин"),
    Rogue ("Разбойник"),
    Sniper ("Снайпер"),

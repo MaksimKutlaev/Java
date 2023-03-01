@@ -15,6 +15,8 @@ public abstract class UnitClass implements gameInterface {
     protected UnitClassType unitType;
     protected Point coords;
     protected String state;
+    protected static int heroCnt;
+
 
     public UnitClass (String name, float hp, int maxHp, int defence, int damage, int minDamage, int maxDamage, 
     int speed, UnitClassType type, int x, int y)
@@ -30,6 +32,7 @@ public abstract class UnitClass implements gameInterface {
         this.unitType=type;
         coords = new Point(x,y);
         state = "Stand";
+        heroCnt++;
     }
 
 
@@ -49,13 +52,26 @@ public abstract class UnitClass implements gameInterface {
     public void step(ArrayList<UnitClass> team1, ArrayList<UnitClass> team2) { }
 
     @Override
-    public String getInfo() {
-        
-        return String.format("%s:\t Name: %s\t Health: %d\t Speed: %d\t posX: %d,  posY: %d",
-        this.unitType.getTitle(), this.name, this.hp, this.speed, this.coords.x, this.coords.y);
+    public StringBuilder getInfo() {
+        return new StringBuilder("");
     }
 
-    
+    // @Override
+    // public String getInfo() {
+        
+    //     return String.format("%s:\t Name: %s\t Health: %d\t Speed: %d\t posX: %d,  posY: %d",
+    //     this.unitType.getTitle(), this.name, this.hp, this.speed, this.coords.x, this.coords.y);
+    // }
+
+    @Override
+    public String toString() {
+        return name +
+                " H:" + Math.round(hp) +
+                " D:" + defence +
+                " A:" + damage +
+                " Dmg:" + Math.round(Math.abs((minDamage+maxDamage)/2)) +
+                " " + state;
+    }
 
     protected void getDamage(float damage){
         this.hp -= damage;
