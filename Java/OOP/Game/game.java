@@ -9,19 +9,23 @@ import Game.Unit.*;
 
 
 public class game {
+    public static ArrayList<UnitClass> allTeam = new ArrayList<>();
+    public static ArrayList<UnitClass> green = new ArrayList<>();
+    public static ArrayList<UnitClass> blue = new ArrayList<>();
+
     public static void main(String[] args){ 
         
-        ArrayList<UnitClass> red = new ArrayList<>();
+        ArrayList<UnitClass> green = new ArrayList<>();
         ArrayList<UnitClass> blue = new ArrayList<>();
         ArrayList<UnitClass> allTeam = new ArrayList<>();
         Scanner user_input = new Scanner(System.in);
-        createTeam(red, 0, 1);
+        createTeam(green, 0, 1);
         createTeam(blue, 3, 10);
-        System.out.println("RED");
-        red.forEach(n->System.out.println(n.getInfo()));
+        System.out.println("GREEN");
+        green.forEach(n->System.out.println(n.getInfo()));
         System.out.println("BLUE");
         blue.forEach(n->System.out.println(n.getInfo()));
-        allTeam.addAll(red);
+        allTeam.addAll(green);
         allTeam.addAll(blue);
         sortArmy(allTeam);
         System.out.println("Sort to speed");
@@ -31,8 +35,8 @@ public class game {
         // String stop = "";
         // while (stop.equals("")) {
         //     for (UnitClass unit : allTeam) {
-        //         if (red.contains(unit)) unit.step(red, blue);
-        //         else unit.step(blue, red);
+        //         if (green.contains(unit)) unit.step(green, blue);
+        //         else unit.step(blue, green);
         //     }
         //     allTeam.forEach(n -> System.out.println(n.getInfo()));
         //     stop = user_input.nextLine();
@@ -94,7 +98,7 @@ public class game {
 
 
     
-  // red.sort (new Comparator<UnitClass>(){
+  // green.sort (new Comparator<UnitClass>(){
         //     @Override
         //     public int compare(UnitClass o1, UnitClass o2) {
         //         if (o2.getSpeed()==o1.getSpeed()) return o2.getHP()-o1.getHP();

@@ -56,6 +56,7 @@ public abstract class UnitClass implements gameInterface {
         return new StringBuilder("");
     }
 
+    public int[] getCoords() {return new int[]{coords.x, coords.y};}
     // @Override
     // public String getInfo() {
         
