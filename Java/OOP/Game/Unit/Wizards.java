@@ -13,13 +13,14 @@ public class Wizards extends UnitClass{
     }
 
     @Override
-    public void step(ArrayList<UnitClass> team1, ArrayList<UnitClass> team2) {
+    public boolean step(ArrayList<UnitClass> team1, ArrayList<UnitClass> team2) {
         for (UnitClass unit: team1) {
             if (unit.hp < unit.maxHp & !unit.state.equals("Die")) {
                 unit.getDamage(maxDamage);
-                return;
+                return false;
             }
         }
+        return true;
     }
 
     @Override

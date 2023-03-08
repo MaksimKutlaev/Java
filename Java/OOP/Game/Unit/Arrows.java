@@ -16,20 +16,22 @@ public class Arrows extends UnitClass {
     }
 
     @Override
-    public void step(ArrayList<UnitClass> team1, ArrayList<UnitClass> team2) {
-        if (state.equals("Die") || arrow == 0) return;
+    public boolean step(ArrayList<UnitClass> team1, ArrayList<UnitClass> team2) {
+        if (state.equals("Die") || arrow == 0);
         UnitClass victim = team2.get(findNearest(team2));
         // int a = boolean ? first : second;
         float attack = (victim.defence - damage)>0 ? minDamage : (victim.defence - damage)<0 ? maxDamage : (minDamage+maxDamage)/2;
         victim.getDamage(attack);
         for (UnitClass unit: team1) {
-            if (unit.getInfo().toString().split(":")[0].equals("Крестьянин") && unit.state.equals("Stand")) {
+            if (unit.getInfo().toString().split(":")[0].equals("Фермер") && unit.state.equals("Stand")) {
                 unit.state = "Busy";
-                return;
+        
             }
-            System.out.println(unit.getInfo().toString().split(":")[0]);
+            return true;
+            // System.out.println(unit.getInfo().toString().split(":")[0]);
         }
         arrow--;
+        return false;
     }
 
     @Override

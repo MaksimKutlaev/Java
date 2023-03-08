@@ -17,5 +17,9 @@ public class Point {
         return x < oponent.x;
     }
 
+    protected Point chooseWay(Point opponent) {
+        return new Point(x - opponent.x, y - opponent.y);
+    }
+
    
 }

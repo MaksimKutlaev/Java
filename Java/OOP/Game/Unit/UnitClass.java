@@ -49,7 +49,7 @@ public abstract class UnitClass implements gameInterface {
     }
 
     @Override
-    public void step(ArrayList<UnitClass> team1, ArrayList<UnitClass> team2) { }
+    public boolean step(ArrayList<UnitClass> team1, ArrayList<UnitClass> team2) {return true;}
 
     @Override
     public StringBuilder getInfo() {

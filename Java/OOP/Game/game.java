@@ -19,6 +19,8 @@ public class game {
         ArrayList<UnitClass> blue = new ArrayList<>();
         ArrayList<UnitClass> allTeam = new ArrayList<>();
         Scanner user_input = new Scanner(System.in);
+        System.out.print("Press Enter to begin.");
+        user_input.nextLine();
         createTeam(green, 0, 1);
         createTeam(blue, 3, 10);
         System.out.println("GREEN");
@@ -28,19 +30,18 @@ public class game {
         allTeam.addAll(green);
         allTeam.addAll(blue);
         sortArmy(allTeam);
-        System.out.println("Sort to speed");
-        allTeam.forEach(n->System.out.println(n.getInfo()));
-        System.out.println();
+        // System.out.println("Sort to speed");
+        // allTeam.forEach(n->System.out.println(n.getInfo()));
+        // System.out.println();
 
-        // String stop = "";
-        // while (stop.equals("")) {
-        //     for (UnitClass unit : allTeam) {
-        //         if (green.contains(unit)) unit.step(green, blue);
-        //         else unit.step(blue, green);
-        //     }
-        //     allTeam.forEach(n -> System.out.println(n.getInfo()));
-        //     stop = user_input.nextLine();
-        // }
+        while (true){
+            View.view();
+            user_input.nextLine();
+            for (UnitClass unit: allTeam) {
+                if (green.contains(unit)) unit.step(green, blue);
+                else unit.step(blue, green);
+            }
+        }
         
 
     }

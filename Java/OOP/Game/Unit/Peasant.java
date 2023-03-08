@@ -13,8 +13,9 @@ public class Peasant extends UnitClass{
     }
 
     @Override
-    public void step(ArrayList<UnitClass> team1, ArrayList<UnitClass> team2) {
-        if (!state.equals("Die")) state = "Stand";
+    public boolean step(ArrayList<UnitClass> team1, ArrayList<UnitClass> team2) {
+        if (!state.equals("Die")) {state = "Stand"; return false;}
+        else return true;
     }
 
     @Override
