@@ -1,4 +1,4 @@
-package Unit;
+package java_game.Unit;
 public class Spearman extends Warrior {
     public Spearman(String name, Vector2D coords) {
         super(name, 70.f, 70, 10, 2, 4, 10,

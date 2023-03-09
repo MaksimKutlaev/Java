@@ -1,4 +1,4 @@
-package Unit;
+package java_game.Unit;
 
 public enum Names {
     Natalie, Rick, Ivan, Katya, Dima, Volodya, Fedya, John, Zhenya, Olya, Alexei, Peter, Arthur, Misha, Masha,

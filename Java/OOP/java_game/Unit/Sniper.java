@@ -1,4 +1,4 @@
-package Unit;
+package java_game.Unit;
 
 public class Sniper extends Shooter{
     public Sniper(String name, Vector2D coords) {

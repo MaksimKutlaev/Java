@@ -15,9 +15,9 @@ public class game {
 
     public static void main(String[] args){ 
         
-        ArrayList<UnitClass> green = new ArrayList<>();
-        ArrayList<UnitClass> blue = new ArrayList<>();
-        ArrayList<UnitClass> allTeam = new ArrayList<>();
+        // ArrayList<UnitClass> green = new ArrayList<>();
+        // ArrayList<UnitClass> blue = new ArrayList<>();
+        // ArrayList<UnitClass> allTeam = new ArrayList<>();
         Scanner user_input = new Scanner(System.in);
         System.out.print("Press Enter to begin.");
         user_input.nextLine();

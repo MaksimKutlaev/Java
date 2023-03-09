@@ -1,4 +1,4 @@
-package Unit;
+package java_game.Unit;
 
 public class Vector2D {
     protected int posX;

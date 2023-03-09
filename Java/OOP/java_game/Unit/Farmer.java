@@ -1,5 +1,3 @@
-package Unit;
-
 import java.util.ArrayList;
 
 public class Farmer extends Human {

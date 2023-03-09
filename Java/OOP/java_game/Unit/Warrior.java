@@ -1,4 +1,4 @@
-package Unit;
+package java_game.Unit;
 
 public abstract class Warrior extends Human {
 
