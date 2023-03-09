@@ -9,45 +9,62 @@ import Game.Unit.*;
 
 
 public class game {
+    static final int UNITS = 10;
     public static ArrayList<UnitClass> allTeam = new ArrayList<>();
     public static ArrayList<UnitClass> green = new ArrayList<>();
     public static ArrayList<UnitClass> blue = new ArrayList<>();
 
     public static void main(String[] args){ 
-        
-        // ArrayList<UnitClass> green = new ArrayList<>();
-        // ArrayList<UnitClass> blue = new ArrayList<>();
-        // ArrayList<UnitClass> allTeam = new ArrayList<>();
         Scanner user_input = new Scanner(System.in);
         System.out.print("Press Enter to begin.");
         user_input.nextLine();
         createTeam(green, 0, 1);
         createTeam(blue, 3, 10);
-        System.out.println("GREEN");
-        green.forEach(n->System.out.println(n.getInfo()));
-        System.out.println("BLUE");
-        blue.forEach(n->System.out.println(n.getInfo()));
+        // System.out.println("GREEN");
+        // green.forEach(n->System.out.println(n.getInfo()));
+        // System.out.println("BLUE");
+        // blue.forEach(n->System.out.println(n.getInfo()));
         allTeam.addAll(green);
         allTeam.addAll(blue);
         sortArmy(allTeam);
+        boolean a = true;
+        int countBlue=0;
+        int countGreen=0;
         // System.out.println("Sort to speed");
         // allTeam.forEach(n->System.out.println(n.getInfo()));
         // System.out.println();
 
-        while (true){
+        while (a){
             View.view();
             user_input.nextLine();
+            countBlue =0;
+            countGreen=0;
             for (UnitClass unit: allTeam) {
-                if (green.contains(unit)) unit.step(green, blue);
-                else unit.step(blue, green);
+                if (green.contains(unit)) {
+                    if  (unit.step(green, blue))
+                    countBlue++;
+                }
+                else {
+                if ((unit.step(blue, green)))
+                    countGreen++;
+
+                };
             }
+            if (countBlue==UNITS||countGreen==UNITS)
+            a=false;
         }
-        
-
+        if (countGreen==UNITS)
+            System.out.println("GREEN TEAM WINS!");
+        else {
+            System.out.println("BLUE TEAM WINS!");
+        }
     }
-        static void createTeam(ArrayList<UnitClass> team, int side, int posY){
 
-        for (int index=0; index<10;index++){
+
+
+static void createTeam(ArrayList<UnitClass> team, int side, int posY){
+
+        for (int index=0; index<UNITS;index++){
             switch (new Random().nextInt(4)+side) {
                 case 0:
                     team.add(new Magican(getName(), new Point(index+1, posY)));
