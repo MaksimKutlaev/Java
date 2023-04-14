@@ -60,25 +60,32 @@ def edit_note():
     else:
         print("Заметка не найдена.")
         
-        
-def edit_note():
-    """Редактирование существующей заметки."""
-    note_id = input("Введите ID заметки, которую нужно отредактировать: ")
+def delete_note():
+    """Удаление существующей заметки."""
+    note_id = input("Введите ID заметки, которую нужно удалить: ")
     for note in notes:
         if str(note["id"]) == note_id:
-            title = input("Введите новый заголовок заметки: ")
-            body = input("Введите новое тело заметки: ")
-            note["title"] = title
-            note["body"] = body
-            note["timestamp"] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            notes.remove(note)
             save_notes()
-            print("Заметка успешно отредактирована.")
+            print("Заметка успешно удалена.")
             break
     else:
         print("Заметка не найдена.")
         
-
-        
-        
 FILENAME = "notes.json"
 notes = load_notes()
+
+while True:
+    command = input("Введите команду (add, read, edit, delete, exit): ")
+    if command == "add":
+        add_note()
+    elif command == "read":
+        read_notes()
+    elif command == "edit":
+        edit_note()
+    elif command == "delete":
+        delete_note()
+    elif command == "exit":
+        break
+    else:
+        print("Неверная команда.")
