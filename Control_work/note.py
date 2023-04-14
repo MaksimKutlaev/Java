@@ -18,6 +18,19 @@ def add_note():
     save_notes()
     print("Заметка успешно сохранена.")
     
+def save_notes():
+    """Сохранение списка заметок в файл."""
+    with open(FILENAME, "w") as f:
+        json.dump(notes, f)
+        
+def load_notes():
+    """Загрузка списка заметок из файла."""
+    if os.path.isfile(FILENAME):
+        with open(FILENAME, "r") as f:
+            return json.load(f)
+    else:
+        return []
+    
 def read_notes():
     """Чтение списка заметок."""
     filter_date = input("Введите дату для фильтрации (в формате ГГГГ-ММ-ДД): ")
@@ -30,3 +43,42 @@ def read_notes():
             print(f"{note['id']}: {note['title']}\n{note['body']}\n{note['timestamp']}\n")
     else:
         print("Заметок не найдено.")
+        
+def edit_note():
+    """Редактирование существующей заметки."""
+    note_id = input("Введите ID заметки, которую нужно отредактировать: ")
+    for note in notes:
+        if str(note["id"]) == note_id:
+            title = input("Введите новый заголовок заметки: ")
+            body = input("Введите новое тело заметки: ")
+            note["title"] = title
+            note["body"] = body
+            note["timestamp"] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            save_notes()
+            print("Заметка успешно отредактирована.")
+            break
+    else:
+        print("Заметка не найдена.")
+        
+        
+def edit_note():
+    """Редактирование существующей заметки."""
+    note_id = input("Введите ID заметки, которую нужно отредактировать: ")
+    for note in notes:
+        if str(note["id"]) == note_id:
+            title = input("Введите новый заголовок заметки: ")
+            body = input("Введите новое тело заметки: ")
+            note["title"] = title
+            note["body"] = body
+            note["timestamp"] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            save_notes()
+            print("Заметка успешно отредактирована.")
+            break
+    else:
+        print("Заметка не найдена.")
+        
+
+        
+        
+FILENAME = "notes.json"
+notes = load_notes()
