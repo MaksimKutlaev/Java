@@ -18,4 +18,15 @@ def add_note():
     save_notes()
     print("Заметка успешно сохранена.")
     
-    
+def read_notes():
+    """Чтение списка заметок."""
+    filter_date = input("Введите дату для фильтрации (в формате ГГГГ-ММ-ДД): ")
+    if filter_date:
+        filtered_notes = [note for note in notes if note["timestamp"].startswith(filter_date)]
+    else:
+        filtered_notes = notes
+    if filtered_notes:
+        for note in filtered_notes:
+            print(f"{note['id']}: {note['title']}\n{note['body']}\n{note['timestamp']}\n")
+    else:
+        print("Заметок не найдено.")
