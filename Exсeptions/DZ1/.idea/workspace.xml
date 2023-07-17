@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="00a1a0b4-3c7d-4bc3-abac-5ad1d08931d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Algorim/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorim/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorim/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorim/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorim/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorim/Algorim.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/Exсeptions.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sem1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sem2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Exсeptions/.idea/Exсeptions.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Control_work/note.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/DZ/DZ4/DZ4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/DZ/DZ4/DZ4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/DZ/DZ4/DZ4_sem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/DZ/DZ4/New/DZ4new.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_Git1" beforeDir="false" afterPath="$PROJECT_DIR$/../../test_Git1" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2R6hkNzzND39MT1iZHqlXEienLR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "onboarding.tips.debug.path": "/Users/maksimkutlaev/Desktop/GeekBrains/Exсeptions/DZ1/src/Main.java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00a1a0b4-3c7d-4bc3-abac-5ad1d08931d8" name="Changes" comment="" />
+      <created>1686576580717</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686576580717</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
